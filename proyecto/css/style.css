@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+    width: 90%;
+    margin: 0 0 0 40px;
+}
+
+.h4_titulo {
+    margin-bottom: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.ms-peli-input {
+    width: 230px;
+}
+
+#ms-form-peli {
+    display: flex;
+    margin: 0 90px 0 90px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+#ms-form-peli *{
+    margin:0 10px 0 10px;
+}
+/* Navegador */
+
+.navbar-brand {
+    /*bootstrap*/
+    padding: 0px;
+}
+
+.navbar {
+    /*Bootstrap*/
+    /* background-color: rgb(107, 171, 255); */
+    background-color: rgb(223, 152, 95);
+    box-shadow: 0px 0px 20px gray;
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.container-fluid {
+    /*Bootstrap*/
+    width: 1200px;
+}
+
+/* Contenido central */
+
+.titulo {
+    background-color: rgb(223, 152, 95);
+    margin: 30px 0 30px 44%;
+}
+
+.ms-main {
+    padding-top: 57px;
+    padding-bottom: 20px;
+    min-height: 900px;
+    background-color: lightgrey;
+}
+
+.ms-content {
+    box-shadow: 0px 0px 20px grey;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    max-width: 1250px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: 900px;
+}
+
+/* Contenido central Detalle pelicula */
+
+.ms-detalle {}
+
+.ms-detalles {
+    width: 90%;
+    height: 50px;
+    background: #ababac;
+}
+
+/* Poster y tabla de detalle */
+
+.ms-detalle-film {
+    margin: 50px;
+    display: flex;
+}
+
+.ms-peli_poster {
+    width: 251px;
+    height: 378px;
+    border-radius: 10px;
+    margin-right: 40px;
+    /* display: inline; */
+}
+
+.ms-detalle-titulo {
+    margin-left: 40px;
+}
+
+.ms-table-detalle {
+    width: 100%;
+    border: solid 2px;
+    border-radius: 1em;
+    border-collapse: initial;
+}
+
+#tabla-detalle td {
+    padding-left: 1em;
+    padding-top: 5px;
+}
+
+#tabla-detalle td {
+    padding-left: 1em;
+    padding-top: 5px;
+}
+
+/*  Elementos de index */
+
+.ms-select-fecha {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.ms-titulo-carousel {
+    color: rgb(223, 152, 95);
+    font-weight: 900;
+}
+
+.ms-form-contacto {
+    padding: 30px 50px 50px 50px;
+}
+
+.ms-radios-contacto * {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ms-check-contacto * {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ms-div-contacto {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+/* flexbox peliculas */
+
+#ms-film-flexbox {
+    /* padding:5px 10px 30px 10px; */
+    margin-top: 50px;
+    margin-left: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.card {
+    /*bootstrap*/
+    margin: 0 10px 10px 10px;
+}
+
+/* Botones de consulta de horarios */
+
+.btn-horarios {
+    padding: 5px 5px;
+}
+
+/* login */
+
+#ms-form-login {
+    padding-left: 353px;
+    padding-right: 353px;
+}
+
+/* Lista de películas */
+
+.ms-tabla-peliculas {
+    padding: 40px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1b1e1f;
+    border: 1px solid #333;
+    color: #d1d4d6;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 40px gray;
+}
+
+#ms-div-footer {
+    /* margin:50% 0 50% 0; */
+}
+
+/* Flexbox media query */
+
+@media only screen and (max-width: 1227px) {
+    #ms-film-flexbox {
+        margin-left: 75px;
+    }
+}
+
+@media only screen and (max-width: 1183px) {
+    #ms-film-flexbox {
+        margin-left: 35px;
+    }
+}
+
+@media only screen and (max-width: 1095px) {
+    #ms-film-flexbox {
+        margin-left: 125px;
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+    #ms-film-flexbox {
+        margin-left: 75px;
+    }
+}
+
+@media only screen and (max-width: 922px) {
+    #ms-film-flexbox {
+        margin-left: 115px;
+    }
+    /* Divs de formulario de contacto */
+    .ms-div-contacto {
+        display: block;
+    }
+    #ms-form-login {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media only screen and (max-width: 826px) {
+    #ms-film-flexbox {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (max-width: 753px) {
+    #ms-film-flexbox {
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 712px) {
+    #ms-film-flexbox {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 629px) {
+    #ms-film-flexbox {
+        margin-left: 5px;
+    }
+}
+
+@media only screen and (max-width: 686px) {
+    #ms-film-flexbox {
+        margin-left: 120px;
+    }
+    /* flex de los detalle de pelicula */
+    .ms-detalle-film {
+        display: block;
+    }
+    /* Tabla de detalles */
+    .ms-table-detalle {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    #ms-film-flexbox {
+        margin-left: 140px;
+    }
+    .titulo {
+        margin-left: 37%;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #ms-film-flexbox {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    #ms-film-flexbox {
+        margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 365px) {
+    #ms-film-flexbox {
+        margin-left: 80px;
+    }
+}

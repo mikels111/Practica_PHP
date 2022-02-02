@@ -1,0 +1,132 @@
+body, html {
+    position: relative;
+    /* width: 100%; */
+    /* min-height: 100%; */
+    font-family: 'Roboto Mono', monospace;
+    background: rgb(65, 65, 65);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo {
+    height: 40px;
+}
+
+.img_contenido {
+    width: 150px;
+    height: 100px;
+}
+
+#cabecera {
+    display: flex;
+    padding: 10px;
+    background-color: rgb(221, 230, 231);
+}
+
+#div_navegador {
+    margin-left: 1em;
+    padding-top: 0.5em;
+}
+
+#div_navegador a:hover {
+    color: rgb(116, 116, 116);
+}
+
+#div_navegador a {
+    padding: 0.5em;
+}
+
+main {
+    padding: 1rem;
+    width: 50%;
+    margin: auto;
+    background: rgb(241, 241, 241);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding-bottom: 2em;
+}
+
+#main_container {
+    min-height: 1000px;
+}
+
+.error {
+    color: red;
+}
+
+#panel {
+    display: flex;
+}
+
+.divs_panel {
+    border: solid;
+    width: 33.3%;
+    margin: 1em;
+}
+
+.btn_sig_conf {
+    border: solid;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 1em;
+}
+
+.encendido {
+    background: rgb(157, 164, 165);
+    padding: 1em;
+    text-align: center;
+}
+
+.apagado {
+    background: inherit;
+    padding: 1em;
+    text-align: center;
+}
+
+.confirm {
+    background: green;
+}
+
+footer {
+    width: 1200px;
+    width: 1250px;
+    background-color: rgb(221, 230, 231);
+    border: 1px solid #333;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 20px black;
+}
+
+@media (max-width: 1360px) {
+    .nav-link {
+        font-size: small;
+    }
+}
+
+@media (max-width: 1156px) {
+    .nav-link {
+        font-size: 10.5px;
+    }
+}
+
+@media (max-width: 1066px) {
+    #observaciones {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 483px) {
+    #email{
+        width: 80px;
+    }
+    #nombre{
+        width: 80px;
+    }
+}
