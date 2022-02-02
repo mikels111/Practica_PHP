@@ -47,4 +47,4 @@ Route::get('/pagina',function(){
 Route::get('/peliculas/{pagina?}',[PeliculaController::class, 'index']);
 Route::get('/detalle',[PeliculaController::class, 'detalle']);
 Route::get('/usuario',[UsuarioController::class,'index'])->name('usuario');
-//commit
+
