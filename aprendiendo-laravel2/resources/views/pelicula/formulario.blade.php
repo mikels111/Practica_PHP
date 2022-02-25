@@ -1,6 +1,6 @@
 <h1>Formulario en laravel</h1>
 
-<form action="{{action('PeliculaController@recibir')}}" method="POST">
+<form action="{{action([App\Http\Controllers\PeliculaController::class,'recibir'])}}" method="POST">
     {{ csrf_field() }}
     <p>
         <label for="nombre">Nombre</label>

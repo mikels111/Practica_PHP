@@ -13,4 +13,5 @@
 @section('footer')
     @parent()
     <h1>Footer en la view página</h1>
+    
 @endsection
